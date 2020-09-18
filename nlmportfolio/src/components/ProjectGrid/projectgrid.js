@@ -1,4 +1,7 @@
 import React from 'react';
+// import Projects from "../../../projects.json";
+// import ProjectCard from '../ProjectCard/projectcard';
+import ProjectCard from '../ProjectCard/projectcard';
 
 function ProjectGrid() {
     return (

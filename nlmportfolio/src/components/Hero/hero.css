@@ -1,0 +1,33 @@
+.profile {
+
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        margin-bottom: 20px;
+      
+}
+
+.heroBackground {
+    height: 150%;
+    width: 100%;
+     /* The image used */
+     background-image: url("../../images/IMG_2944.jpeg");
+  
+     /* Full height */
+     height: 100%;
+   
+     /* Center and scale the image nicely */
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.8;
+  }
+
+  .titletext {
+    color: lightgrey;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .navbar-item:hover {
+    background-color: darkolivegreen;
+  }

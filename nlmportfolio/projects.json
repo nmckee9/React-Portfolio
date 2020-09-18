@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "Eat The Burger",
+      "image": "./src/images/burger.png",
+      "github": "https://github.com/nmckee9/Burger",
+      "deployed": "https://thawing-basin-34765.herokuapp.com/"
+    },
+    {
+      "id": 2,
+      "name": "Employee Directory",
+      "image": "./src/images/employee.png",
+      "github": "https://github.com/nmckee9/Employee-Tracker-React"
+    },
+    {
+      "id": 3,
+      "name": "Rabbit Hole",
+      "image": "/.src/images/rabbit.png",
+      "github": "https://github.com/maquispe/Project-2",
+      "deployed": "https://aqueous-reaches-84177.herokuapp.com/"
+    }
+]

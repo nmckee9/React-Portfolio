@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Hero from "./components/Hero/hero";
 import Spacer from "./components/Spacer/spacer";
 import About from "./components/About/about";
 import Footer from "./components/Footer/footer";
@@ -16,7 +15,6 @@ const App = () => {
   return (
     <Router>
       <div>
-        <Hero />
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/getintouch" component={Contact} />

@@ -1,4 +1,5 @@
 import React from 'react';
+import "./style.css"
 
 function About() {
     return (
@@ -6,23 +7,23 @@ function About() {
 <div class="columns">
   <div class="column is-4 has-text-centered">
   <div class="">
-  <p class="title is-small">
-    Javascript
+  <p class="title is-small abouttitletext">
+  Wildly Curious
     </p>
-    <p>hello</p>
+    <p />
     </div>
   </div>
   <div class="column is-4 has-text-centered">
-  <p class="title is-small">
-    React
+  <p class="title is-small abouttitletext">
+  Passionate Learner
     </p>
-    <p>hello</p>
+      <p />
   </div>
   <div class="column is-4 has-text-centered">
-  <p class="title is-small">
-    Node
+  <p class="title is-small abouttitletext">
+  Creative Connections
     </p>
-    <p>hello</p>
+    <p />
   </div>
 </div>
 </div>
