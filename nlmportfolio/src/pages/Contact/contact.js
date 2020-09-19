@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Links from "../../components/Links/links";
+import Spacer from "../../components/Spacer/spacer";
 
 
 function Contact() {
@@ -37,6 +38,8 @@ function Contact() {
     </nav>
   </div>
   <Links />
+  <Spacer />
+  <Spacer />
 </section>
 
 

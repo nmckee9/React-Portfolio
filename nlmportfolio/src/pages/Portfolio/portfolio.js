@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import ProjectGrid from "../../components/ProjectGrid/projectgrid";
 import "./portfolio.css";
+import ProjectCard from "../../components/ProjectCard/projectcard";
 
 
 function Portfolio() {
@@ -44,7 +45,7 @@ function Portfolio() {
       </h1>
     </div>
   </div>
-<ProjectGrid />
+  <ProjectGrid />
 </section>
     )
 };

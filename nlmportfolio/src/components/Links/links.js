@@ -13,19 +13,22 @@ function Links() {
       </h1>
           <h2 class="subtitle touchtext">You Can Find Me Here </h2>
             <div class="buttons is-centered">
-              <button class="button is-link">
+              <a target="blank" href="https://www.linkedin.com/in/natalielaurenmckee/" class="button is-link">
                 <span class="icon linktext">
                   <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                 </span>
                 <span>LinkedIn</span>
-              </button>
-              <button class="button">
+              </a>
+              <a target="blank" href="https://github.com/nmckee9" class="button">
                 <span class="icon">
                   <i class="fa fa-github-square" aria-hidden="true"></i>
                 </span>
                 <span>GitHub</span>
-              </button>
+              </a>
             </div>
+            <button class="button  is-outlined is-info is-link">
+                <span>Send an Email</span>
+              </button>
         </div>
       </div>
     </div>

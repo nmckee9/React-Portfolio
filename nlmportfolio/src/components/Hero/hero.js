@@ -10,11 +10,11 @@ function Hero() {
     return (
 <section class="hero is-bold is-medium heroBackground">
   <div class="hero-head">
-    <nav class="navbar">
+    <nav class="navbar is-transparent">
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item">
-          <p>natalie lauren mckee</p>
+          <p>Natalie McKee</p>
           </a>
           <span class="navbar-burger burger" data-target="navbarMenuHeroA">
             <span></span>
@@ -45,8 +45,8 @@ function Hero() {
         Hey There
       </h1>
       <img src={logo} alt="Logo" className="profile" />
-      <h2 class="subtitle titletext">I'm Natalie </h2>
-      <h2 class="subtitle titletext">A Front-End Web Developer with a background in Marketing, with a knack for visual storytelling. </h2>
+      <h2 class="title titletext">I'm Natalie </h2>
+      
     </div>
   </div>
 </section>

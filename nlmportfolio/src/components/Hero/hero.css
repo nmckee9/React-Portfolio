@@ -7,6 +7,10 @@
       
 }
 
+.navbar-item {
+  color: lightgrey;
+}
+
 .heroBackground {
     height: 150%;
     width: 100%;
@@ -26,8 +30,4 @@
   .titletext {
     color: lightgrey;
     font-family: 'Oswald', sans-serif;
-  }
-
-  .navbar-item:hover {
-    background-color: darkolivegreen;
   }
