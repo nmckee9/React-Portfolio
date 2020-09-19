@@ -13,7 +13,7 @@ function Contact() {
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item">
-          <p>natalie lauren mckee</p>
+          <p>Natalie McKee</p>
           </a>
           <span class="navbar-burger burger" data-target="navbarMenuHeroA">
             <span></span>

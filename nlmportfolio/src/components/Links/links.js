@@ -26,9 +26,9 @@ function Links() {
                 <span>GitHub</span>
               </a>
             </div>
-            <button class="button  is-outlined is-info is-link">
-                <span>Send an Email</span>
-              </button>
+            <a href="mailto:nmckee9@gmail.com" class="button is-outlined is-info is-link">
+                Send an Email
+                </a>
         </div>
       </div>
     </div>
