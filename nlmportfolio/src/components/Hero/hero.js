@@ -14,7 +14,9 @@ function Hero() {
       <div class="container">
         <div class="navbar-brand">
           <a class="navbar-item">
-          <p>Natalie McKee</p>
+          <Link to="/" className={location.pathname === "/" ? "navbar-item is-active" : "navbar-item"}>
+          Natalie Lauren McKee
+        </Link>
           </a>
           <span class="navbar-burger burger" data-target="navbarMenuHeroA">
             <span></span>

@@ -49,7 +49,7 @@ function ProjectGrid() {
             </span>
             <span>Repo</span>
           </a>
-          <a class="button herokubutton" target="_blank" href="https://aqueous-reaches-84177.herokuapp.com/">
+          <a class="button herokubutton" target="_blank" href="https://discover-rabbit-hole.herokuapp.com/">
             <span class="icon">
               <i class="iconify" data-icon="logos-heroku-icon" data-inline="false"></i>
             </span>
