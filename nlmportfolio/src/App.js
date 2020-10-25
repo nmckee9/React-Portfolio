@@ -1,7 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Spacer from "./components/Spacer/spacer";
-import About from "./components/About/about";
 import Footer from "./components/Footer/footer";
 import Home from "./pages/Home/Home";
 import Portfolio from "./pages/Portfolio/portfolio";

@@ -9,11 +9,11 @@ function Intro() {
   <section class="section">
     <div class="container has-text-centered">
       <h1 class="title margin"></h1>
-      <h2 class="subtitle introtitletext has-text-centered" >A Front-End Web Developer with a Background in Marketing
+      <h2 class="subtitle introtitletext has-text-centered" >With a Background in Marketing
       </h2>
       <h2 class="subtitle introtitletext has-text-centered"> 	&#38;
       </h2>
-      <h2 class="subtitle introtitletext has-text-centered" >A knack for Visual Storytelling
+      <h2 class="subtitle introtitletext has-text-centered" >A Knack for Visual Storytelling
       </h2>
     </div>
   </section>

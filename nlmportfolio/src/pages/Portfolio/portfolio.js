@@ -2,13 +2,18 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import ProjectGrid from "../../components/ProjectGrid/projectgrid";
 import "./portfolio.css";
+import Navbar from "../../components/Navbar/navbar";
+import Hero from "../../components/Hero/hero";
 import ProjectCard from "../../components/ProjectCard/projectcard";
 
 
 function Portfolio() {
   const location = useLocation();
     return (
-<section class="hero is-bold is-medium">
+      <div>
+      <Navbar/>
+      {/* <Hero /> */}
+{/* /* <section class="hero is-bold is-medium">
   <div class="hero-head">
     <nav class="navbar">
       <div class="container">
@@ -37,7 +42,7 @@ function Portfolio() {
         </div>
       </div>
     </nav>
-  </div>
+    </div> */ }
   <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="title portfoliotitletext">
@@ -46,7 +51,8 @@ function Portfolio() {
     </div>
   </div>
   <ProjectGrid />
-</section>
+{/* </section> */}
+</div>
     )
 };
 
