@@ -4,8 +4,6 @@ import ProjectGrid from "../../components/ProjectGrid/projectgrid";
 import "./portfolio.css";
 import Navbar from "../../components/Navbar/navbar";
 import Hero from "../../components/Hero/hero";
-import ProjectCard from "../../components/ProjectCard/projectcard";
-
 
 function Portfolio() {
   const location = useLocation();

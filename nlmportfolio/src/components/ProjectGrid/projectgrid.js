@@ -109,13 +109,13 @@ function ProjectGrid() {
           </div>
           <p className="has-text-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           <p className="buttons" />
-          <a className="button githubbutton" target="_blank" href="https://github.com/nmckee9/Weather-Dashboard">
+          <a className="button githubbutton" target="_blank" href="https://github.com/Leon0917/final-project">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
             <span>Repo</span>
           </a>
-          <a className="button githubbutton" target="_blank" href="https://nmckee9.github.io/Weather-Dashboard/">
+          <a className="button githubbutton" target="_blank" href="https://arcane-chamber-66986.herokuapp.com/">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
