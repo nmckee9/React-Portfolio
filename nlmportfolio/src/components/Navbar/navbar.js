@@ -5,20 +5,20 @@ import "./navbar.css";
 function Navbar() {
     const location = useLocation();
     return (
-    <nav class="navbar is-transparent">
-          <div class="container">
-            <div class="navbar-brand">
+    <nav className="navbar is-transparent">
+          <div className="container">
+            <div className="navbar-brand">
               <Link to="/" className={location.pathname === "/" ? "navbar-item is-active has-text-grey" : "navbar-item"}>
               Natalie Lauren McKee
             </Link>
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+              <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
     </a>
             </div>
-            <div id="navbarMenuHeroA" class="navbar-menu navbartext">
-              <div class="navbar-end">
+            <div id="navbarMenuHeroA" className="navbar-menu navbartext">
+              <div className="navbar-end">
               <Link to="/" className={location.pathname === "/" ? "navbar-item is-active has-text-grey" : "navbar-item"}>
               Home
             </Link>

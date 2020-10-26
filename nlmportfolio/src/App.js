@@ -11,14 +11,14 @@ import Contact from "./pages/Contact/contact";
 const App = () => {
 
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/getintouch" component={Contact} />
         <Footer />
-      </div>
-    </Router>  
+      </Router>
+    </div>
   );
 
 }

@@ -2,15 +2,14 @@ import React from 'react';
 
 
 function Spacer() {
-    return (
-    <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title"></h1>
+  return (
+    <div>
+      <section className="section">
+        <div className="container">
+        </div>
+      </section>
     </div>
-  </section>
-</body>
-    )
+  )
 };
 
 export default Spacer;

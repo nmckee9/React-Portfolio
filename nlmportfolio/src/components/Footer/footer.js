@@ -5,7 +5,7 @@ import "./style.css";
 function Footer() {
     return (
         <div>
-  <div class=" footer content has-text-centered spacing">
+  <div className=" footer content has-text-centered spacing">
     <p />
       <strong />
       <Logo />

@@ -13,16 +13,16 @@ function ProjectGrid() {
       <div className="tile is-4 is-vertical is-parent">
         <div className="tile is-child box">
           <p className="title has-text-centered titletext">Eat The Krabby Patty</p>
-          <img src={burger} className="burger" />
+          <img src={burger} alt="burger" className="burger" />
           <p className="has-text-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           <p className="buttons" />
-          <a className="button githubbutton is-centered" target="_blank" href="https://github.com/nmckee9/Burger">
+          <a className="button githubbutton is-centered" target="_blank" rel="noopener noreferrer" href="https://github.com/nmckee9/Burger">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
             <span>Repo</span>
           </a>
-          <a className="button herokubutton" target="_blank" href="https://thawing-basin-34765.herokuapp.com/">
+          <a className="button herokubutton" target="_blank" rel="noopener noreferrer" href="https://thawing-basin-34765.herokuapp.com/">
             <span className="icon">
               <i className="iconify" data-icon="logos-heroku-icon" data-inline="false"></i>
             </span>
@@ -32,11 +32,11 @@ function ProjectGrid() {
         <div className="tile is-child box">
           <p className="title has-text-centered titletext">Employee User Directory</p>
           <div className="is-one-quarter has-text-centered">
-          <img src={employee} className="employee" />
+          <img src={employee} alt="employee" className="employee" />
           </div>
           <p className="has-text-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           <p className="buttons" />
-          <a className="button githubbutton" target="_blank" href="https://github.com/nmckee9/Employee-Tracker-React">
+          <a className="button githubbutton" target="_blank" rel="noopener noreferrer" href="https://github.com/nmckee9/Employee-Tracker-React">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
@@ -52,13 +52,13 @@ function ProjectGrid() {
           </div>
           <p className="has-text-centered"> Allows music lovers and knowledge seekers alike to expand upon their interests and be a discoverer of new knowledge</p>
           <p className="buttons" />
-          <a className="button githubbutton" target="_blank" href="https://github.com/maquispe/Project-2">
+          <a className="button githubbutton" target="_blank" rel="noopener noreferrer" href="https://github.com/maquispe/Project-2">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
             <span>Repo</span>
           </a>
-          <a className="button herokubutton" target="_blank" href="https://discover-rabbit-hole.herokuapp.com/">
+          <a className="button herokubutton" target="_blank" rel="noopener noreferrer" href="https://discover-rabbit-hole.herokuapp.com/">
             <span className="icon">
               <i className="iconify" data-icon="logos-heroku-icon" data-inline="false"></i>
             </span>
@@ -68,17 +68,17 @@ function ProjectGrid() {
         <div className="tile is-child box">
           <p className="title has-text-centered titletext">Weather DashBoard</p>
           <div className="is-one-quarter has-text-centered">
-          <img src={weather} className="weather" />
+          <img src={weather} alt="weather" className="weather" />
           </div>
           <p className="has-text-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           <p className="buttons" />
-          <a className="button githubbutton" target="_blank" href="https://github.com/nmckee9/Weather-Dashboard">
+          <a className="button githubbutton" target="_blank" rel="noopener noreferrer"href="https://github.com/nmckee9/Weather-Dashboard">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
             <span>Repo</span>
           </a>
-          <a className="button githubbutton" target="_blank" href="https://nmckee9.github.io/Weather-Dashboard/">
+          <a className="button githubbutton" target="_blank" rel="noopener noreferrer" href="https://nmckee9.github.io/Weather-Dashboard/">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
@@ -89,33 +89,33 @@ function ProjectGrid() {
       <div className="tile is-vertical is-parent">
         <div className="tile is-child box">
           <p className="title has-text-centered titletext">Meal Maps</p>
-          <img src={mealmaps} className="mealmaps" />
+          <img src={mealmaps} alt="mealmaps" className="mealmaps" />
           <p className="has-text-centered"> Allows music lovers and knowledge seekers alike to expand upon their interests and be a discoverer of new knowledge</p>
           <p className="buttons" />
-          <a className="button githubbutton" target="_blank" href="https://lulamoon96.github.io/Project-1/">
+          <a className="button githubbutton" target="_blank" rel="noopener noreferrer" href="https://lulamoon96.github.io/Project-1/">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
             <span>Repo</span>
           </a>
-          <a className="button herokubutton" target="_blank" href="https://lulamoon96.github.io/Project-1/">
+          <a className="button herokubutton" target="_blank" rel="noopener noreferrer" href="https://lulamoon96.github.io/Project-1/">
             <span>Deployed</span>
             </a>
         </div>
         <div className="tile is-child box">
           <p className="title has-text-centered titletext">Happily Woke</p>
           <div className="is-one-quarter has-text-centered">
-          <img src={happilywoke} className="happilywoke" />
+          <img src={happilywoke} alt="happilywoke" className="happilywoke" />
           </div>
           <p className="has-text-centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
           <p className="buttons" />
-          <a className="button githubbutton" target="_blank" href="https://github.com/Leon0917/final-project">
+          <a className="button githubbutton" target="_blank" rel="noopener noreferrer" href="https://github.com/Leon0917/final-project">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
             <span>Repo</span>
           </a>
-          <a className="button githubbutton" target="_blank" href="https://arcane-chamber-66986.herokuapp.com/">
+          <a className="button githubbutton" target="_blank" rel="noopener noreferrer" href="https://arcane-chamber-66986.herokuapp.com/">
             <span className="icon">
               <i className="fa fa-github-square" aria-hidden="true"></i>
             </span>
