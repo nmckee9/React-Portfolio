@@ -1,6 +1,5 @@
 import React from 'react';
 import "./intro.css";
-import Spacer from '../Spacer/spacer';
 
 
 function Intro() {

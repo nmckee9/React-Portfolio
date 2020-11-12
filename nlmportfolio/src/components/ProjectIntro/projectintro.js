@@ -9,25 +9,23 @@ function ProjectIntro() {
         <div className="tile is-4 is-vertical is-parent">
           <div className="tile is-child box">
             <p className="title abouttitletext">Contact Me </p>
-            <p />
-            <p className="subtitle subtitletext">
-            <Link to="/getintouch" className={location.pathname === "/getintouch" ? "navbar-item is-active" : "navbar-item"}>
-          Get In Touch
-        </Link>
-            </p>
+        
+              <p className="subtitle subtitletext">
+              <Link to="/getintouch" className={location.pathname === "/getintouch" ? "navbar-item is-active" : "navbar-item"}>
+                Get In Touch
+              </Link>
+              </p>
           </div>
           </div>
         <div className="tile is-parent">
           <div className="tile is-child box">
-            <p className="title abouttitletext">Portfolio</p>
-            <p />
-            <p className="subtitle subtitletext">
+            <p className="title abouttitletext">Portfolio
+            <p className="subtitle subtitletext has-text-centered">
             <Link to="/portfolio" className={location.pathname === "/portfolio" ? "navbar-item is-active" : "navbar-item"}>
           Projects
         </Link>
             </p>
-    <a href="">
-      </a>
+            </p>
         </div>
       </div>
       </div>
