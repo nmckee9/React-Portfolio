@@ -11,7 +11,7 @@ function Navbar() {
               <Link to="/" className={location.pathname === "/" ? "navbar-item is-active has-text-grey" : "navbar-item"}>
               Natalie Lauren McKee
             </Link>
-              <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false">
+              <a role="button" className="navbar-burger" aria-label="menu" href="#top" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>

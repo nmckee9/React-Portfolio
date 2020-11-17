@@ -4,7 +4,6 @@ import Spacer from "../../components/Spacer/spacer";
 import Navbar from "../../components/Navbar/navbar";
 import GetInfo from "../../components/GetInfo/getinfo";
 
-
 function Contact() {
   return (
     <div>
